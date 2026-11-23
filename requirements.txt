@@ -1,0 +1,12 @@
+# Core (needed to run the full pipeline)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+
+# Optional
+streamlit>=1.30          # simple web interface: streamlit run src/app.py
+jupyter>=1.0             # to open notebooks/churn_prediction.ipynb
+# imbalanced-learn>=0.11 # only if you want to try SMOTE (not used by default)

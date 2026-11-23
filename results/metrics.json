@@ -1,0 +1,107 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "test_default": {
+        "threshold": 0.5,
+        "accuracy": 0.7433333333333333,
+        "precision": 0.49107142857142855,
+        "recall": 0.7333333333333333,
+        "f1": 0.5882352941176471,
+        "roc_auc": 0.7939555555555555,
+        "confusion_matrix": [
+          [
+            168,
+            57
+          ],
+          [
+            20,
+            55
+          ]
+        ]
+      },
+      "cv_auc_mean": 0.7917398615489728,
+      "cv_auc_std": 0.03717739025251423
+    },
+    "Decision Tree": {
+      "test_default": {
+        "threshold": 0.5,
+        "accuracy": 0.66,
+        "precision": 0.39849624060150374,
+        "recall": 0.7066666666666667,
+        "f1": 0.5096153846153846,
+        "roc_auc": 0.7435851851851852,
+        "confusion_matrix": [
+          [
+            145,
+            80
+          ],
+          [
+            22,
+            53
+          ]
+        ]
+      },
+      "cv_auc_mean": 0.7344553016824297,
+      "cv_auc_std": 0.03752511818121241
+    },
+    "Random Forest": {
+      "test_default": {
+        "threshold": 0.5,
+        "accuracy": 0.73,
+        "precision": 0.4732142857142857,
+        "recall": 0.7066666666666667,
+        "f1": 0.5668449197860963,
+        "roc_auc": 0.7832296296296296,
+        "confusion_matrix": [
+          [
+            166,
+            59
+          ],
+          [
+            22,
+            53
+          ]
+        ]
+      },
+      "cv_auc_mean": 0.7718484061831284,
+      "cv_auc_std": 0.04633115450285015
+    }
+  },
+  "final_model": "Logistic Regression",
+  "final_at_chosen_threshold": {
+    "threshold": 0.55,
+    "accuracy": 0.76,
+    "precision": 0.5145631067961165,
+    "recall": 0.7066666666666667,
+    "f1": 0.5955056179775281,
+    "roc_auc": 0.7939555555555555,
+    "confusion_matrix": [
+      [
+        175,
+        50
+      ],
+      [
+        22,
+        53
+      ]
+    ]
+  },
+  "final_at_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.7433333333333333,
+    "precision": 0.49107142857142855,
+    "recall": 0.7333333333333333,
+    "f1": 0.5882352941176471,
+    "roc_auc": 0.7939555555555555,
+    "confusion_matrix": [
+      [
+        168,
+        57
+      ],
+      [
+        20,
+        55
+      ]
+    ]
+  }
+}
